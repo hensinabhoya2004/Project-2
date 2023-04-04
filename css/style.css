@@ -1,0 +1,596 @@
+:root{
+    --light-blue:#EDF1Fc;
+    --dark-orange:#FF9738;
+    --text-white-color:#fff;
+    --black-color:#191E24;
+    --blue-color:#002855;
+    --font-family: 'Lato';
+    --light-white:#FAFAFB;
+}
+a{
+    text-decoration: none;
+}
+body{
+    font-family: var(--font-family);
+}
+
+
+button{
+    width: 150px;
+    padding: 10px;
+    border-radius: 50px;
+    border-color:var(--blue-color) ;
+    color: #002855;
+    transition: all 0.5s;
+    font-size: 18px;
+}
+button:hover{
+    font-size: 18px;
+    font-weight: 500;
+    color: #FF9738;
+    border: 2px var(--dark-orange);
+    border-color: #FF9738;
+}
+button.btn{
+    width: 150px;
+    padding: 15px;
+    border-radius: 50px;
+    color: #fff;
+    background-color:var(--dark-orange);
+    transition: all 0.5s;
+}
+button.btn:hover{
+    color: #fff;
+    background: var(--blue-color);
+}
+a.nav-link{
+    font-weight: 500;
+    font-size: 18px;
+}
+/* banner */
+h6{
+    color: #54595F;
+    font-size: 16px;
+    font-weight: 600;
+}
+h1{
+    font-weight: 600;
+    font-size: 60px;
+    color: #191E24;
+}
+p{
+    font-size: 20px;
+    color: #191E24;
+}
+p.line{
+    color: #191E24;
+    font-size: 13px;
+}
+
+/* counter */
+.box-1{
+    
+    text-align: center;
+    margin-top: 100px;
+    width: 100%;
+    height: 511px;
+}
+p.counter-p{
+    color: #191E24;
+    letter-spacing: 1px;
+    line-height: 30px;
+}
+/* about us */
+.box-2,.box-2-3{
+    width: 100%;
+    background-color: var(--light-blue);
+    height: 628px;
+}
+.box-2-3{
+    background-color:#fff;
+}
+ h6{
+    color:#54595F;
+    font-size: 14px;
+    font-weight: 500;
+}
+h2.about-title{
+    font-weight: 700;
+    color: #191E24;
+    font-size: 60px;
+}
+p{
+    font-size: 18px;
+    color:#191E24;
+}
+.btn-1{
+    transition: all 0.5s;
+    color: #fff;
+    background-color: #FF9738;
+    border: 0;
+}
+.btn-1:hover{
+    color: #fff;
+    background-color: var(--blue-color);
+}
+.img1,.about-content{
+    margin-top: 15%;
+}
+
+/* title */
+.title{
+    margin-top: 100px;
+}
+.title h6{
+    color: #54595F;
+    text-align: center;
+}
+.title h2{
+    text-align: center;
+    font-weight: 800;
+    color: #191E24;
+}
+.box-3{
+    background-color: #fff;
+    border-radius: 30px;
+    padding: 30px;
+    box-shadow: 0px 20px 50px 0px rgb(0 0 0 / 10%);
+}
+
+/* growth */
+.growth{
+    background-image:url('../Img/businessman-using-his-laptop-in-the-cofee-shop--e1629443044632.jpg');
+    background-repeat:no-repeat ;
+    background-size: cover;
+    width: 100%;
+    height: 592px;
+    background-color: var(--blue-color);
+    margin-top: 160px;
+}
+h2.handing-title ,h5.handing-sub-title {
+    text-align: center;
+    color: #fff;
+    font-size: 40px;
+    font-weight: 800;
+}
+h5.handing-sub-title{
+    font-size: 20px;
+}
+.growth-content{
+    margin-top: 290px;
+}
+button.btn-2{
+    width: 300px;
+    padding: 20px;
+    color: #fff;
+    border:2px solid var(--text-white-color);
+    background-color: transparent;
+    
+}
+button.btn-3{
+    width: 300px;
+    padding: 20px;
+    color: var(--text-white-color);
+    border: 0;
+    background-color: var(--dark-orange);
+}
+/* TESTIMONIAL */
+.box-4{
+    background-color:#EDF1Fc;
+    width: 100%;
+    height: 900px;
+}
+.testimonial-title{
+    color: #54595F;
+    font-weight: 500;
+}
+.testimonial-sub-title{
+    font-weight: 800;
+}
+.box-5{
+    width: 330px;
+    padding: 40px;
+    border-radius: 25px;
+    background-color: #fff;
+}
+p.testimonial-p{
+    font-size: 20px;
+    color: #191E24;
+}
+.man-img{
+    border-radius: 50%;
+}
+.first-img{
+    margin-top: 50px;
+}
+.testimonial-content{
+    padding-top: 55px;
+}
+/* monry transfer */
+.box-7{
+    width: 100%;
+    height: 675px;
+    background-color: #FAFAFB;
+}
+h3.money-ch{
+   color: #2A3F65;
+   font-size: 18px;
+}
+p.money-p{
+   color: #5D7079;
+   font-size: 16px;
+}
+.col-3.transfer-part {
+   transition: all 0.5s;
+   border: 1px solid grey;
+}
+.col-3:hover {
+  background-color: #fff;
+}
+.transfer h5 {
+   color: #009286;
+   font-size: 16px;
+   font-weight: 600;
+}
+span.transfer-title{
+    text-align: center;
+    display: block;
+    padding-top: 90px;
+    color: #90006F;
+}
+h2.transfer-handing{
+    text-align: center;
+    font-weight: 700;
+    color: #2A3F65;
+}
+
+/* blog*/
+h3.blog-content{
+    font-size: 24px;
+    font-weight: 800;
+}
+.blog-p{
+    color: #5d7079;
+}
+
+.card{
+    
+    border: 1px solid gray;
+    transition: all 0.1s;
+ }
+ 
+ .card span{
+    color: #ff014f;
+    font-size: 12px;
+    font-weight: 600;
+ }
+ .card a{
+    color: #c4cfde;
+    font-size: 13px;
+ }
+ .card-body i{
+    transition: all 0.5s;
+ }
+
+ .card .card-title a{
+    color: #009286;
+    font-size: 20px;
+    font-weight: 600;
+    transition: all 0.5s;
+ }
+ .portfolio .card-title i{
+    opacity: 0;
+    transform: all 0.5s;
+    transform: rotate(45deg);
+    color: #ff014f;
+ }
+ h6.news{
+    color:#90006F;
+    font-size: 16PX;
+ }
+
+/* footer */
+.footer-contact{
+    padding-top: 140px;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    transition: all 0.5s;
+    color: #191E24;
+}
+a:hover{
+    color: red;
+}
+p.copyright-p{
+    margin-top: 50px;
+}
+i{
+    transition: all 0.5s;
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+    
+}
+i:hover{
+    color: red;
+    margin-top: -10px;
+}
+/* serives section */
+/* e-commerce title */
+.e-commerce{
+    display: block;
+    text-align: center;
+}
+h6{
+    margin-top: 100px;
+}
+/* dashboard */
+.dashboard-img{
+    border-radius: 10px;
+    margin-top: 75px;
+}
+p.dashboard-content{
+    line-height: 30px;
+    font-size: 18px;
+}
+
+/* about us */
+h2.about-title{
+    font-size: 40px;
+    font-weight: 700;
+} 
+p.about-p{
+    font-size: 18px;
+    line-height: 30px;
+}
+/* pricing page */
+/* plan */
+.box-9{
+    border: 2px solid rgba(128, 128, 128, 0.132);
+}
+h6.plan-sub-title{
+    color: #90006F;
+}
+h2.plan-had-title{
+    color: #2A3F65;
+    font-weight: 600;
+}
+h2.plan-title{
+    font-size: 24px;
+    font-weight:700 ;
+}
+h2.price-plan{
+    font-weight:600 ;
+    font-size: 45px;
+    color: #90006F;
+}
+span.monthly-plan{
+    font-size: 14px;
+}
+button.plan{
+    transition: all 0.5s;
+    background-color: #009286;
+    color: #fff;
+    border-radius: 10px;
+}
+button.plan:hover{
+    background-color: #90006F;
+}
+/*pricing  */
+span{
+    color: #191E24;
+}
+h1{
+   font-size: 60px;
+   color: #191E24;
+}
+h2.price-content{
+    font-size: 40px;
+    font-weight: 700;
+}
+button{
+    background-color: var(--dark-orange);
+    transition: all 0.5s;
+    border: 0;
+    color: #fff;
+}
+.button:hover{
+    background-color: #002855;
+}
+.pricing-content{
+    margin-top: 90px;
+}
+p{
+    line-height: 30px;
+}
+.pricing-home{
+    margin-top: 150px;
+}
+i{
+    color: var(--dark-orange);
+}
+/* Online Payment type */
+.col-12{
+    box-shadow: 0px 20px 50px 0px rgb(0 0 0 / 10%);
+}
+/* faq */
+h6.faq{
+    font-size: 18px;
+}
+h6.faq,.faq-questions,.faq-p{
+    text-align: center;
+}
+/* contact page */
+.contact-home{
+    margin-top: 90px;
+}
+.col-12{
+    border-radius: 15px;
+}
+/* contact */
+.input-type{
+    border-radius: 15px;
+    box-shadow: 0px 20px 50px 0px rgb(0 0 0 / 10%);
+ }
+ .form-control {
+    
+    background-color: var(--light-blue);
+    font-size: 16px;
+    border-radius: 50px;
+    transition: all 0.5s;
+    padding:15px 0;
+ }
+ .form-control:hover{
+    border: 1px solid gray;
+ }
+ 
+ .form-label{
+    color: black;
+    font-size: 18PX;
+    font-weight: 700;
+    margin: 20px 0;
+ }
+ .contact .btn-1{
+    color: var(--gray);
+    transition: all 0.5s;
+    font-weight: 600;
+    width: 200px;
+    border: 0;
+    height: 50px;
+ }
+ h5.payment-handing{
+    transition: all 0.5s;
+ }
+ h5.payment-handing:hover{
+    border-bottom: 1px solid red;
+ }
+ 
+ .contact h4{
+    font-size: 24px;
+    color: #E4E6EA;
+    ;
+ }
+ .contact span,p{
+    font-size: 16px;
+    color: var(--light-gray);
+    padding-top: 20px;
+ }
+ .contact p{
+    font-size: 18px;
+ }
+ .contact span .phone,a .icon{
+    font-size: 16px;
+    color: var(--light-gray);
+    margin: 25px 0;
+ }
+ .contact span .mail{
+    font-size: 16px;
+    color: var(--light-gray);
+ }
+ .contact span a{
+    color: var(--gray);
+    transition: all 0.5s;
+    font-size: 16px;
+ }
+ .contact span a:hover{
+    color: var(--red);
+    
+ }
+ .name{
+    color: #c4cfde;
+    font-size: 14px;
+    padding-top: 30px;
+ }
+ .contact i{
+    width: 60px;
+    height: 60px;
+    margin: 25px 0;
+    font-size: 20px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+}
+h3.contact-title{
+    font-weight: 800;
+    font-size: 36px;
+}
+p.contact-p{
+    font-size: 20px;
+    font-weight: 400;
+}
+.col-12.address-part{
+    border: 1px solid gray;
+    background-color: none;
+}
+i.icon{
+    font-size: 45px;
+    color: #002855;
+    background-color: var(--light-blue);
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    
+}
+/* about us */
+/* brands and organizations */
+h2.brand-title{
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    padding-top: 80px;
+}
+p.brand-p{
+    text-align: center;
+    font-size: 18px;
+    line-height: 28px;
+}
+.brand-logo{
+    padding-bottom: 150px;
+}
+/*  */
+.box-8{
+    width: 100%;
+    height: 835px;
+    background-color: var(--light-blue);
+}
+h2.culture-title{
+    font-size: 40px;
+    font-weight: 700;
+}
+p.culture-p{
+    font-size: 18px;
+    line-height: 30px;
+}
+h2.ideas-title{
+    font-size: 40px;
+}
+/* story */
+h2.story-title,.banking-sub-title{
+    font-weight: 600;
+    font-size: 40px;
+}
+p.story-p,.banking-p{
+    line-height: 32px;
+    font-size: 18px;
+}
+img.story-img{
+    border-radius: 20px;
+}
+/* banking */
+.banking-content{
+    
+    text-align: center;
+    margin-top: 120px;
+    
+}
+.banking{
+    background-image: url('../Img/making-easy-online-payments-while-drinking-coffee-e1629443123771.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 600px;
+}
+ 
